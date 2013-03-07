@@ -1,0 +1,22 @@
+[user]
+    name = Diego Mosela
+    email = diego.mosela@gmail.com
+
+[color]
+    branch = auto
+    diff = auto
+    interactive = auto
+    status = auto
+    ui = auto
+
+[color "status"]
+    added = yellow
+    changed = cyan
+    untracked = red
+
+[core]
+    filemode = false
+
+[alias]
+    graph = log --graph --all --pretty=format:'%Cred%h%Creset - %Cgreen(%cr)%Creset %s%C(yellow)%d%Creset' --abbrev-commit --date=relative
+    sfiles = show --pretty="format:" --name-only
